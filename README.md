@@ -5,9 +5,13 @@
 [![tested with jest](https://img.shields.io/badge/tested_with-jest-99424f.svg)](https://github.com/facebook/jest)
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
-# Jest Styled Components
+# Jest Styled Components -x-kom fork
+This is fork from original jest-styled-components with fix for empty media in snapshots from: 
+[Issue](https://github.com/styled-components/jest-styled-components/issues/276#issuecomment-1644297727)
+
 A set of utilities for testing [Styled Components](https://github.com/styled-components/styled-components) with [Jest](https://github.com/facebook/jest).
 This package improves the snapshot testing experience and provides a brand new matcher to make expectations on the style rules.
+
 
 # Quick Start
 
