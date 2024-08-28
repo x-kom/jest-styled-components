@@ -74,7 +74,7 @@ const getStyle = (classNames, config = {}) => {
   const ast = getCSS();
   const filter = filterRules(classNames);
   const rules = ast.stylesheet.rules.filter(filter);
-  const atRules = getAtRules(ast, filter);
+  const atRules = getAtRules(ast, filter).filter(entry => entry.rules.length > 0);
 
   ast.stylesheet.rules = rules.concat(atRules);
 
